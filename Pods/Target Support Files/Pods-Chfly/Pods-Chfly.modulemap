@@ -1,0 +1,6 @@
+framework module Pods_Chfly {
+  umbrella header "Pods-Chfly-umbrella.h"
+
+  export *
+  module * { export * }
+}
