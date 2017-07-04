@@ -3,6 +3,6 @@ use_frameworks!
 
 target 'Chfly' do
  
-pod 'SwiftyJSON'
+ #pod 'SwiftyJSON', '3.1.4'
 
 end

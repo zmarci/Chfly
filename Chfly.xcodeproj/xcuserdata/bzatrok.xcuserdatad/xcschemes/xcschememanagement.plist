@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Chfly.xcscheme</key>
+		<key>Chfly.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F8FAB2CF3BEFC76CE56355A16AF2B90A</key>
+		<key>7180BCEE1F0A1A3F0033DA63</key>
 		<dict>
 			<key>primary</key>
 			<true/>
