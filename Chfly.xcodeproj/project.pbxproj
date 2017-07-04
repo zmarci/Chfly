@@ -336,7 +336,6 @@
 			baseConfigurationReference = 406DA636829E962F7FE09378 /* Pods-Chfly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Chfly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zmarton.Chfly;
@@ -350,7 +349,6 @@
 			baseConfigurationReference = 301F24BEFFE18439B380CB01 /* Pods-Chfly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Chfly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zmarton.Chfly;
