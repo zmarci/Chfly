@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1104571CDBD7C0AC619DF867 /* Pods_Chfly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902248A368ABCA616C07B8E8 /* Pods_Chfly.framework */; };
-		715D39A61F0B709D007BC65A /* BestFareCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D39A51F0B709D007BC65A /* BestFareCollectionViewController.swift */; };
+		714FAE261F0D629F0058E5B8 /* FareCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714FAE251F0D629F0058E5B8 /* FareCellCollectionViewCell.swift */; };
+		714FAE2A1F0D637D0058E5B8 /* BestFareCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714FAE281F0D637D0058E5B8 /* BestFareCollectionViewController.swift */; };
+		714FAE2B1F0D637D0058E5B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714FAE291F0D637D0058E5B8 /* ViewController.swift */; };
 		7180BCF31F0A1A3F0033DA63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180BCF21F0A1A3F0033DA63 /* AppDelegate.swift */; };
-		7180BCF51F0A1A3F0033DA63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180BCF41F0A1A3F0033DA63 /* ViewController.swift */; };
 		7180BCF81F0A1A3F0033DA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7180BCF61F0A1A3F0033DA63 /* Main.storyboard */; };
 		7180BCFA1F0A1A3F0033DA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7180BCF91F0A1A3F0033DA63 /* Assets.xcassets */; };
 		7180BCFD1F0A1A3F0033DA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7180BCFB1F0A1A3F0033DA63 /* LaunchScreen.storyboard */; };
@@ -19,10 +20,11 @@
 /* Begin PBXFileReference section */
 		301F24BEFFE18439B380CB01 /* Pods-Chfly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chfly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chfly/Pods-Chfly.release.xcconfig"; sourceTree = "<group>"; };
 		406DA636829E962F7FE09378 /* Pods-Chfly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chfly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chfly/Pods-Chfly.debug.xcconfig"; sourceTree = "<group>"; };
-		715D39A51F0B709D007BC65A /* BestFareCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestFareCollectionViewController.swift; sourceTree = "<group>"; };
+		714FAE251F0D629F0058E5B8 /* FareCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FareCellCollectionViewCell.swift; path = CollectionViewCells/FareCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		714FAE281F0D637D0058E5B8 /* BestFareCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestFareCollectionViewController.swift; sourceTree = "<group>"; };
+		714FAE291F0D637D0058E5B8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7180BCEF1F0A1A3F0033DA63 /* Chfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7180BCF21F0A1A3F0033DA63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7180BCF41F0A1A3F0033DA63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7180BCF71F0A1A3F0033DA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7180BCF91F0A1A3F0033DA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7180BCFC1F0A1A3F0033DA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +61,42 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		714FAE271F0D637D0058E5B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				714FAE281F0D637D0058E5B8 /* BestFareCollectionViewController.swift */,
+				714FAE291F0D637D0058E5B8 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		714FAE2D1F0D63BF0058E5B8 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				714FAE251F0D629F0058E5B8 /* FareCellCollectionViewCell.swift */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		714FAE2E1F0D63D30058E5B8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7180BCF61F0A1A3F0033DA63 /* Main.storyboard */,
+				7180BCFB1F0A1A3F0033DA63 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		714FAE2F1F0D63F20058E5B8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7180BCF21F0A1A3F0033DA63 /* AppDelegate.swift */,
+				7180BCF91F0A1A3F0033DA63 /* Assets.xcassets */,
+				7180BCFE1F0A1A3F0033DA63 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		7180BCE61F0A1A3F0033DA63 = {
 			isa = PBXGroup;
 			children = (
@@ -80,13 +118,10 @@
 		7180BCF11F0A1A3F0033DA63 /* Chfly */ = {
 			isa = PBXGroup;
 			children = (
-				7180BCF21F0A1A3F0033DA63 /* AppDelegate.swift */,
-				7180BCF41F0A1A3F0033DA63 /* ViewController.swift */,
-				7180BCF61F0A1A3F0033DA63 /* Main.storyboard */,
-				715D39A51F0B709D007BC65A /* BestFareCollectionViewController.swift */,
-				7180BCF91F0A1A3F0033DA63 /* Assets.xcassets */,
-				7180BCFB1F0A1A3F0033DA63 /* LaunchScreen.storyboard */,
-				7180BCFE1F0A1A3F0033DA63 /* Info.plist */,
+				714FAE271F0D637D0058E5B8 /* ViewControllers */,
+				714FAE2D1F0D63BF0058E5B8 /* CollectionViewCells */,
+				714FAE2E1F0D63D30058E5B8 /* Storyboards */,
+				714FAE2F1F0D63F20058E5B8 /* SupportingFiles */,
 			);
 			path = Chfly;
 			sourceTree = "<group>";
@@ -214,8 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7180BCF51F0A1A3F0033DA63 /* ViewController.swift in Sources */,
-				715D39A61F0B709D007BC65A /* BestFareCollectionViewController.swift in Sources */,
+				714FAE261F0D629F0058E5B8 /* FareCellCollectionViewCell.swift in Sources */,
+				714FAE2A1F0D637D0058E5B8 /* BestFareCollectionViewController.swift in Sources */,
+				714FAE2B1F0D637D0058E5B8 /* ViewController.swift in Sources */,
 				7180BCF31F0A1A3F0033DA63 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
